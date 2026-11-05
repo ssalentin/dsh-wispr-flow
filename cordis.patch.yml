@@ -1,0 +1,16 @@
+- insert:
+    - id: speech-to-text
+      name: '@deepseek-ai/dsh-experimental-speech-to-text'
+      config:
+        defaultProvider: wispr-flow
+        language: auto
+    - id: speech-to-text-wispr-flow
+      name: '@local/dsh-wispr-flow'
+      config:
+        providerId: wispr-flow
+        baseUrl: https://api.wisprflow.ai
+        includeDictionary: true
+    - id: api-speech-to-text
+      name: '@deepseek-ai/dsh-experimental-api-speech-to-text'
+    - id: ui-voice-input
+      name: '@deepseek-ai/dsh-experimental-client-ui-voice-input'

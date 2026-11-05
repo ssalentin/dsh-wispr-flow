@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Wispr Flow Voice Input",
+    "description": "Dictate into the message draft with your local Wispr Flow account. The browser records, the Host asks Wispr Flow for a formatted transcript, and the text is inserted for review before you send."
+  }
+}

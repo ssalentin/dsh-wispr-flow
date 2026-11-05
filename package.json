@@ -1,0 +1,36 @@
+{
+  "name": "@local/dsh-wispr-flow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dictate into the Web UI composer with a local Wispr Flow account.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "wispr-flow",
+    "dictation",
+    "speech-to-text"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssalentin/dsh-wispr-flow.git"
+  },
+  "homepage": "https://github.com/ssalentin/dsh-wispr-flow#readme",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

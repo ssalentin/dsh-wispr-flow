@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Wispr Flow Spracheingabe",
+    "description": "Diktiere direkt in den Nachrichtenentwurf mit deinem lokalen Wispr-Flow-Konto. Der Browser nimmt auf, der Host holt den formatierten Text von Wispr Flow, und der Text wird vor dem Senden zur Prüfung eingefügt."
+  }
+}
